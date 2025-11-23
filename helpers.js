@@ -2,7 +2,7 @@ const fs = require("fs");
 const cookieFilePath = "cookies.txt";
 const cookies = fs.readFileSync(cookieFilePath, "utf-8").trim();
 
-//format cookies for fetch header
+//format cookies for fetch header//
 const FORMAT_COOKIES = cookies
   .split("\n")
   .map((line) => line.split("\t"))

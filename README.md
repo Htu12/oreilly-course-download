@@ -21,7 +21,7 @@ A Node.js tool designed to extract video download links (MP4) and subtitles (VTT
 1. Clone this repository or download the source code.
 2. Navigate to the project directory:
    ```bash
-   cd link-download-couse
+   cd oreilly-course-download
    ```
 3. No external NPM dependencies are required (this tool uses the standard Node.js library).
 
